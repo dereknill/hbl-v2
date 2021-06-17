@@ -20,6 +20,9 @@ header {
   align-items: flex-end;
   padding: 0 20px;
 
+  a {
+    color: $color-secondary !important;
+  }
   button {
     background-color: inherit;
     @include font;
@@ -31,6 +34,9 @@ header {
 
 .dropdown {
   display: none;
+  a {
+    color: $color-secondary !important;
+  }
 }
 
 footer {
@@ -58,10 +64,6 @@ footer {
 }
 body {
   background-color: $color-mainbg;
-}
-
-a {
-  color: $color-secondary !important;
 }
 
 a:hover {
@@ -114,6 +116,10 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  a {
+    color: white !important;
+  }
 
   .overlay {
     width: 100%;
