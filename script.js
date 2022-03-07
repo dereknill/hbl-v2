@@ -12,3 +12,7 @@ function toggleMenu() {
 function disableMenu() {
   dropdown.classList.remove("d-block");
 }
+
+function linkToMain() {
+  window.location.href = "index.html";
+}
