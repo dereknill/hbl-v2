@@ -1,4 +1,5 @@
 var dropdown = document.querySelector(".dropdown");
+window.onresize = disableMenu;
 
 function toggleMenu() {
   if (dropdown.classList.contains("d-block")) {
@@ -6,4 +7,8 @@ function toggleMenu() {
   } else {
     dropdown.classList.add("d-block");
   }
+}
+
+function disableMenu() {
+  dropdown.classList.remove("d-block");
 }
