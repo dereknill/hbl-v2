@@ -16,3 +16,7 @@ function disableMenu() {
 function linkToMain() {
   window.location.href = "./index.html";
 }
+
+function linkToCurbside() {
+  window.location.href = "./curbside.html";
+}
