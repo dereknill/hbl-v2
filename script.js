@@ -14,5 +14,5 @@ function disableMenu() {
 }
 
 function linkToMain() {
-  window.location.href = "index.html";
+  window.location.href = "./index.html";
 }
